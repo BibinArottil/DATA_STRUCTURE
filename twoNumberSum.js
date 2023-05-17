@@ -1,5 +1,3 @@
-let array = [6, 5, 4, 3, 8, 0, 1];
-let target = 10;
 let result = [];
 
 function twoNumberSum(array, target) {
@@ -12,7 +10,7 @@ function twoNumberSum(array, target) {
   }
 }
 
-twoNumberSum(array, target);
+twoNumberSum([6, 5, 4, 3, 8, 0, 1], 10);
 
 for (let i = 0; i < result.length; i++) {
   console.log(result[i]);
